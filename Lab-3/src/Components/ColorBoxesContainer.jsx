@@ -9,7 +9,7 @@ export default function ColorBoxesContainer() {
   });
 
   return (
-    <div className="color-grid">
+    <div className="color-grid" width="50px" height="50px">
       {boxes.map((color, index) => (
         <ColorBox key={index} initialColor={color} />
       ))}
