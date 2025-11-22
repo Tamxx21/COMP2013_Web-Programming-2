@@ -1,0 +1,175 @@
+#root {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 1150px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.NavBar {
+  background-color: rgb(76, 43, 226);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.NavDiv {
+  width: 33%;
+}
+
+.NavTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavCart {
+  text-align: right;
+  padding: 0 10px;
+}
+
+.NavUser {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.main-content, 
+.GroceriesAppContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ProductsContainer {
+  flex: 3;
+  width: 75%;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ProductCard {
+  width: 20%;
+  border: 2px wheat solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.QuantityCounter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.QuantityBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.QuantityBtn:hover {
+  background-color: rgb(76, 43, 226);
+}
+
+img {
+  height: 50px;
+  border-radius: 5px;
+}
+
+.counter-container {
+  display: flex;
+  width: 70%;
+  height: 20px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px auto;
+}
+
+.counter-button {
+  width: 15px;
+  height: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.CartContainer {
+  flex: 1;
+  margin-left: 20px;
+  text-align: left;
+  width: 25%;
+  justify-content: center;
+}
+
+.CartCard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px wheat solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(43, 48, 54); 
+}
+
+.CartCardInfo {
+  width: 50%;
+}
+
+.CartListBtns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.RemoveButton,
+.remove-btn {
+  background-color: rgb(190, 0, 0); 
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#BuyButton {
+  background-color: green;
+  width: 50%;
+}
+
+.cart-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 20px;
+}
+
+.cart-item-left {
+  flex: 0 0 60px;
+  margin-right: 10px;
+}
+
+.cart-item-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: white;
+}
+
+.cart-item-details {
+  flex: 1;
+  text-align: left;
+}
